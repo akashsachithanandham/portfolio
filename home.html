@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<title>Homepage - Student Profile</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
+</style>
+<body class="w3-theme-l5">
+
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2"/></a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i>Home</a>
+        <a href="search.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Search"><i class="fa fa-search"></i></a>
+        <a href="edit.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Edit Profile"><i class="fa fa-user"></i></a>
+        <a href="view.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="View Profile"><i class="fa fa-envelope"></i></a>
+        
+        <div class="w3-dropdown-hover w3-hide-small">
+            <button class="w3-button w3-padding-large" title="Notifications"><i class="fa fa-bell"></i><span class="w3-badge w3-right w3-small w3-green">3</span></button>
+        </div>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account">
+            Sign out
+        </a>
+    </div>
+</div>
+
+<!-- Page Container -->
+<div class="w3-container w3-content" style="max-width:1400px;margin-top:80px">
+    <!-- The Grid -->
+    <div class="w3-row">
+        <!-- Left Column -->
+        <div class="w3-col m3">
+            <!-- Profile -->
+            <div class="w3-card w3-round w3-white">
+                <div class="w3-container">
+                    <h4 class="w3-center">My Profile</h4>
+                    <p class="w3-center"><img src="/balaji.jpg" class="w3-circle" style="height:106px;width:106px" alt="Profile Pic"></p>
+                    <hr>
+                    <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i>CSE Undergrad</p>
+                    <p><i class="fa fa-home fa-fw w3-margin-right w3-text-theme"></i> Hosur, India</p>
+                    <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i> August 23, 1999</p>
+                </div>
+            </div>
+            <br>
+
+
+            <br>
+
+            <!-- Interests -->
+            <div class="w3-card w3-round w3-white w3-hide-small">
+                <div class="w3-container">
+                    <p>Interests</p>
+                    <p>
+                        <span class="w3-tag w3-small w3-theme-d5">News</span>
+                        <span class="w3-tag w3-small w3-theme-d1">Data Science</span>
+                        <span class="w3-tag w3-small w3-theme">Games</span>
+                        <span class="w3-tag w3-small w3-theme-l1">Friends</span>
+                        <span class="w3-tag w3-small w3-theme-l2">Food</span>
+                        <span class="w3-tag w3-small w3-theme-l3">Android</span>
+                        <span class="w3-tag w3-small w3-theme-l4">Cricket</span>
+                        <span class="w3-tag w3-small w3-theme-l5">Tennis</span>
+                    </p>
+                </div>
+            </div>
+            <br>
+
+            <!-- End Left Column -->
+        </div>
+
+        <!-- Middle Column -->
+        <div class="w3-col m7">
+
+            <div class="w3-row-padding">
+                <div class="w3-col m12">
+                    <div class="w3-card w3-round w3-white">
+                        <div class="w3-container w3-padding">
+                            <h6 class="w3-opacity">Home</h6>
+                            <p contenteditable="true" class="w3-border w3-padding">NCP lab: Complete one webpage related to your project</p>
+                            <button type="button" class="w3-button w3-theme"><i class="fa fa-pencil"></i>Add Note</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- End Middle Column -->
+        </div>
+
+        <!-- Right Column -->
+        <div class="w3-col m2">
+            <div class="w3-card w3-round w3-white w3-center">
+                <div class="w3-container">
+                    <p>Upcoming Events:</p>
+                    <p><strong>NCP Lab</strong></p>
+                    <p>Thursday 14:00</p>
+                    <p><button class="w3-button w3-block w3-theme-l4">Info</button></p>
+                </div>
+            </div>
+            <br>
+
+            <div class="w3-card w3-round w3-white w3-center">
+                <div class="w3-container">
+                    <p>Connection Request</p>
+                    <img src="/w3images/avatar6.png" alt="Image" style="width:50%"><br>
+                    <span>Akash Sachithanandham</span>
+                    <div class="w3-row w3-opacity">
+                        <div class="w3-half">
+                            <button class="w3-button w3-block w3-green w3-section" title="Accept"><i class="fa fa-check"></i></button>
+                        </div>
+                        <div class="w3-half">
+                            <button class="w3-button w3-block w3-red w3-section" title="Decline"><i class="fa fa-remove"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <br>
+
+            <!-- End Right Column -->
+        </div>
+
+        <!-- End Grid -->
+    </div>
+
+    <!-- End Page Container -->
+</div>
+<br>
+
+
+
+</body>
+</html>
